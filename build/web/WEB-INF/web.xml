@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>onlinebooks</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>Approve</servlet-name>
+    <servlet-class>com.Approve</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Approve</servlet-name>
+    <url-pattern>/Approve</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Admin</servlet-name>
+    <servlet-class>com.Admin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin</servlet-name>
+    <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>MakeClass</servlet-name>
+    <servlet-class>com.MakeClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MakeClass</servlet-name>
+    <url-pattern>/MakeClass</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>RegisterClass</servlet-name>
+    <servlet-class>com.RegisterClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterClass</servlet-name>
+    <url-pattern>/RegisterClass</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Appointment</servlet-name>
+    <servlet-class>com.Appointment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Appointment</servlet-name>
+    <url-pattern>/Appointment</url-pattern>
+  </servlet-mapping>
+
+
+   <servlet>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>com.Download</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/Download</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>UpdateClass</servlet-name>
+    <servlet-class>com.UpdateClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateClass</servlet-name>
+    <url-pattern>/UpdateClass</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>PLogin</servlet-name>
+    <servlet-class>com.PLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PLogin</servlet-name>
+    <url-pattern>/PLogin</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>StudentApproved</servlet-name>
+    <servlet-class>com.StudentApproved</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentApproved</servlet-name>
+    <url-pattern>/StudentApproved</url-pattern>
+  </servlet-mapping>
+   
+ <servlet>
+    <servlet-name>StudentSecurity</servlet-name>
+    <servlet-class>com.StudentSecurity</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentSecurity</servlet-name>
+    <url-pattern>/StudentSecurity</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ProfessorRegister</servlet-name>
+    <servlet-class>com.ProfessorRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProfessorRegister</servlet-name>
+    <url-pattern>/ProfessorRegister</url-pattern>
+  </servlet-mapping>
+</web-app>
